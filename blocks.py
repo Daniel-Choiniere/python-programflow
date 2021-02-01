@@ -6,14 +6,16 @@ name = input("Please enter your name: ")
 age = int(input("How old are you, {0} ".format(name)))
 print("{0} is {1} years old.".format(name, age))
 
-if age >= 18:
-    print("I am legal age to vote!")
-    print("Please put X in the box")
-else:
-    print("Please come back in {0} years".format(18 - age))
+# if age >= 18:
+#     print("I am legal age to vote!")
+#     print("Please put X in the box")
+# else:
+#     print("Please come back in {0} years".format(18 - age))
 
 if age < 18:
     print("Please come back in {0} years".format(18 - age))
+elif age == 900:
+    print("Sorry you are dead")
 else:
     print("I am legal age to vote!")
     print("Please put X in the box")
