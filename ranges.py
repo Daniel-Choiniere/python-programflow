@@ -22,3 +22,8 @@ if age in range(16, 66):
     print("Have a good day at work")
 else:
     print("Enjoy your free time")
+
+# challenge - Write a program to print out all numbers from 0 -100 that are divisible by 7
+for i in range(0, 101):
+    if i % 7 == 0:
+        print(i)
