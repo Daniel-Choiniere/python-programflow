@@ -11,10 +11,10 @@ while True:
     high_low = input("My guess is {}. Should I guess higher or lower? "
                      "Enter h or l, or c if my guess was correct.".format(guess)).casefold()
     if high_low == "h":
-
+    # Guess higher
     elif high_low == "l":
-
-    elif high_low == "c"
+    # guess lower
+    elif high_low == "c":
         print("I got it in {} guesses. ".format(guess))
 
-    else: print(Please enter h, l, c)
+    else: print("Please enter h, l, c")
