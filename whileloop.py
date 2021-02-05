@@ -15,8 +15,8 @@ while chosen_exit not in avaiable_exits:
     if chosen_exit.casefold() == "quit":
         print("Game Over")
         break
-
-print("Aren't you glad you got out of there!")
+else:
+    print("Aren't you glad you got out of there!")
 
 # challenges
 # Modify the code inside this loop to stop when i is greater than zero and exactly divisible by 11
