@@ -7,7 +7,7 @@ chosen = ""
 while chosen != 0:
     chosen = int(input("Please choose an option number from the list of choices."))
     if chosen < len(choices):
-        print("You have chosen to {}".format(choices[chosen - 1]))
+        print("You have chosen to {}".format(choices[chosen - 1][3:]))
     else:
         print("Please choose a valid number")
         print(choices)
